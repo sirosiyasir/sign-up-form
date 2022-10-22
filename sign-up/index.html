@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <img class="desktop-img" src="images/bg-intro-desktop.png" alt="">
+  <div class="container-fluid container-lg">
+    <div class="row">
+      <div class="left-side col-lg-6 col-md-6">
+        <h1 class="first-h1">Learn to code by watching others</h1>
+        <br>
+        <p class="first-p"> See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable. </p>
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+        <div class="card-top-text-div">
+          <p class="card-top-text">Try it free 7 days then $20/mo. thereafter</p>
+        </div>
+
+        <div class="card">
+          <input type="text" class="first-name" placeholder="First Name">
+          <h6 id="first-name-h6">First Name cannot be empty<span class="error-icon"></span></h6>
+          <input type="text" class="last-name" placeholder="Last Name ">
+          <h6 id="last-name-h6">Last Name cannot be empty</h6>
+          <input type="email" class="email" placeholder="Email Address" autocomplete="email">
+          <h6 id="email-h6">Looks like this is not an email</h6>
+          <input type="password" class="password" placeholder="Password">
+          <h6 id="password-h6">First Name cannot be empty</h6>
+          <button>CLAIM YOUR FREE TRIAL</button>
+          <p class="last-p">By clicking the button, you are agreeing to our<span class="term-and-services"> Terms and Services</span></p>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

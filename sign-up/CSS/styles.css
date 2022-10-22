@@ -1,0 +1,202 @@
+button {
+  background-color: hsl(154, 59%, 51%);
+  margin: 3% 8%;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 2.2%;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* VALUE IS EMPTY OR FALSE */
+h6 {
+  font-size: 0.7rem;
+  color: red;
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#first-name-h6 {
+  display: none;
+}
+
+#last-name-h6 {
+  display: none;
+}
+
+#email-h6 {
+  display: none;
+}
+
+#password-h6 {
+  display: none;
+}
+
+.first-name-color {
+  border-color: red;
+}
+
+.last-name-color {
+  border-color: red;
+}
+
+.email-color {
+  border-color: red;
+}
+
+.password-color {
+  border-color: red;
+}
+
+input {
+  margin: 2% 8% 2%;
+  padding: 2% 2% 2% 5%;
+}
+
+p {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.button-p {
+  margin-top: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  box-shadow: 1px 3px 6px 0 #000;
+  padding-top: 15px;
+}
+
+.card-top-text {
+  text-align: center;
+  padding-top: 13.5px;
+}
+
+.card-top-text-div {
+  background-color: hsl(248, 32%, 49%);
+  height: 3rem;
+  margin-bottom: 15px;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 8px -4px #000;
+}
+
+.container-fluid {
+  padding-top: 180px;
+}
+
+.desktop-img {
+  background-color: red;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.error-icon {
+  position: absolute;
+  right: 4rem;
+  top: -10.5rem;
+  z-index: 10;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url('images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first-h1,
+.first-p {
+  text-align: left;
+}
+
+.first-name {
+  margin-top: 6%;
+}
+
+.left-side {
+  margin-top: 200px;
+}
+
+.last-p {
+  padding-top: 1px;
+  padding-bottom: 20px;
+  color: grey;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.term-and-services {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .left-side {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    background-color: hsl(154, 59%, 51%);
+    margin: 3% 8%;
+    padding: 5%;
+  }
+
+  input {
+    padding: 5% 5% 5% 5%;
+  }
+
+  .container-fluid {
+    padding-top: 0px;
+  }
+
+  .desktop-img {
+    background-color: red;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    min-height: 140%;
+  }
+
+  .left-side {
+    margin-top: 100px;
+  }
+
+  .first-h1,
+  .first-p {
+    text-align: center;
+  }
+
+  .card-top-text {
+    text-align: center;
+    padding: 5% 10%;
+  }
+
+  .card-top-text-div {
+    height: 5rem;
+  }
+}
